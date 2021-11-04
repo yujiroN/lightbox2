@@ -1,0 +1,26 @@
+// ブレイクポイント
+@mixin pc {
+    @media screen and (min-width: 1040px) {
+      @content;
+    }
+  }
+  @mixin tab {
+    @media screen and (max-width: 1039px) {
+      @content;
+    }
+  }
+  @mixin sp {
+    @media screen and (max-width: 600px) {
+      @content;
+    }
+  }
+  
+  // 色の変数
+  
+  
+  
+  // フォント
+  html {
+    font-size: 10px;
+  }
+  
